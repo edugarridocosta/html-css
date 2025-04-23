@@ -1,0 +1,143 @@
+@charset "UTL-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor02: #e20e2a;
+    --cor01: #fadc8a;
+    --cor04: #988AA1;
+    --cor03: #730710;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: var(--cor01);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor01),var(--cor03));
+    padding: 40px;
+    font-family: tourney;
+    text-align: center;
+}
+
+header H1{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}
+
+header h2{
+    text-align: center;
+    padding: 20px;
+}
+
+header p{
+    text-align: justify;
+}
+
+nav{
+    background-color: var(--cor03);
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.507);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: var(--cor01);
+    text-decoration: underline;
+    color: var(--cor03);
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+main > h2{
+    font-family: tourney;
+    padding: 10px;
+}
+
+main > h3{
+    font-family: tourney;
+    padding: 10px;
+}
+
+main > p{
+    padding: 5px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+
+main img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+main img.grande{
+    width: 70%;
+}
+
+aside{
+    background-color:var(--cor01);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > h3{
+    font-family: tourney;
+    background-color: var(--cor02);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p{
+    padding: 10px;
+    line-height: 2em;
+}
+
+aside > ul{
+list-style-position: inside;
+line-height: 2em;
+}
+
+div.video{
+    background-color: var(--cor03);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+footer{
+    background-color:var(--cor03) ;
+    text-align: center;
+    color: white;
+    
+}

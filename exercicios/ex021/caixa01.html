@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="imagen/x-icon">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /*box-level */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkmagenta;
+
+            /* simplificando o "border" border: 10px solid darkmagenta(seria a cor) as 3 linhas de cima simplificada em um codigo sempre tem que ser nessa ordem*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* simpificando padding pode ser assim: (pudding: 10px 10px 20px 13px) conforme as medidas, se forem todos igual pode ser assim: (pudding 10px) */
+
+            /* margin: auto (deixa o texto no meio quando envolve margiem) 
+            se for texto pode colocar text-aliner center que funciona 
+            ela pode ser simplificado assim: (margin: 10px 13px 10px 17px) conforme as medidas podendo centralizar as magens da direita e da esquerda (margin: 10px auto 10px auto)*/
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: brown;
+
+            /*simplidicando outline assim: (outline: 5px dashed brown) mantendo as ordens em todas as simplificação  */
+        }
+
+        a{ /* inline-level */
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+            /* também pode ser simplificado igual o outline mantendo a ordem */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>páragrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

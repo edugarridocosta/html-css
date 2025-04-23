@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="imagen/x-icon">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+        h1{
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397); /* sombra */
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: lightsalmon;
+            padding: 3px;
+            box-shadow: 2px 2px 1px #00000057;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > :hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px; /* raio nas bordas */
+        }
+        article{
+            background-color: lightgrey;
+            padding: 3px;
+        }
+        article > aside{
+            background-color: rgb(145, 145, 145);
+        }
+        #assunto{
+            background-color: lightcoral;
+            border-radius: 0px 10px;
+            
+        }
+        #assunto > h2{
+            color: white;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--header = cabeçalho da pagina-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main> <!-- main = conteudo principal do site-->
+        <section id= "assunto">
+            <h2>Esportes Políticas Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, necessitatibus. Dicta dignissimos consectetur animi exercitationem rerum hic earum ipsa architecto, vero quaerat beatae quos blanditiis ad? Veniam et sint hic.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>nóticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perspiciatis iure veniam, laborum in reiciendis ipsum sunt inventore facere labore consequuntur! Accusantium dicta qui iure quaerat id a molestiae perspiciatis.</p>
+                <aside>
+                    <p>Artigo escrito por Eduardo Costa</p>
+                </aside>
+            </article>
+    </main>
+    <footer> <!-- footer = roda pé do site-->
+        <p>Desenvolvido por Thiis</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
