@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome{
+            background-color: aquamarine;
+        }
+        .cidade{
+            background-color: lightgreen;
+        }
+    </style>
+    <title>Exercício de Tabela</title>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade" span="2">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Caio Algusto</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Médico</td>
+        </tr>
+        <tr>
+            <td>Patricia Santos</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Ana Claudia</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Modelo</td>
+        </tr>
+        <tr>
+            <td>Bruno Sousa</td>
+            <td>m</td>
+            <td>25</td>
+            <td>Motorista</td>
+        </tr>
+    </table>
+</body>
+</html>
